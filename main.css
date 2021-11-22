@@ -1,0 +1,190 @@
+body {
+	font-family: "Gill Sans MT";
+	text-align: left;
+	width: 95%;
+}
+
+.body {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #0077b3;
+}
+
+a:hover {
+	color: #000;
+}
+
+.logo {
+	width: 25%;
+	height: auto;
+	margin: 10px 0;
+}
+
+/*Float the legend over the map*/
+.legend {
+    position: absolute;
+    left: 27.5%;
+    top: 27%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.mainNav {
+	background-color: #0077b3;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainNav ul, .resourcesContent ul li {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainNav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainNav a:link, .mainNav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.mainNav a:hover, mainNav a:active,
+.mainNav .active a:link, .mainNav .active a:visited {
+	background-color: #FFF;
+	color: #000;
+	border: solid lightgrey 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Format the sidebar with scroll bar to show all information */
+.sidebar {
+	width: 25%;
+	height: 740px;
+	float: left;
+	margin-bottom: 10px;
+    line-height: 1.5;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+
+#video {
+    margin-bottom: 20px;
+}
+
+.sidebar header h2, .aboutContent header h2, .resourcesContent header h2 {
+	text-align: center;
+}
+
+/* Main heat map */
+#map {
+	width: 74%;
+	height: 740px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+/* Center content on other pages */
+.aboutContent, .resourcesContent {
+	width: 50%;
+	margin: 0 auto;
+    line-height: 1.5;
+}
+
+.about {
+	float: left;
+}
+
+.aboutImg {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	border: 2px solid #0077b3;
+	border-radius: 5px;
+}
+
+.mainFooter {
+	clear: both;
+	text-align: center;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: #0077b3;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainFooter p {
+	color: #fff;
+	padding-top: 5px;
+}
+
+/*---From Jessica---*/
+
+/* Position the wind patterns map */
+#windMap{
+	 position: absolute ;
+	 z-index: 1;
+	 bottom: 60px;
+	 left: 27%;
+	 border: 2px solid #0077b3;
+	 border-radius: 5px;
+ }
+
+
+/* Position and format the sliders */
+.blurInfo {
+	position: absolute;
+	z-index: 1;
+	top: 20%;
+	right: 5%;
+	font-family: Gill Sans MT;
+	color: #0077b3;
+	width: 255px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: 2px solid #0077b3;
+	border-radius: 5px;
+    opacity: 0.75;
+}
+
+.blurText {
+    font-size: 12px;
+}
+
+.blurInfo p span {
+	background-color: #FFFFFF;
+	color: #0077b3;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+.blurInfo input[type=range] {
+	width: 100%;
+	display: block;
+}
+
+#closeButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
